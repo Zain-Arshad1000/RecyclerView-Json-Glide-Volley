@@ -34,8 +34,8 @@ public class AnimeActivity extends AppCompatActivity {
 
         // ini views
 
-      // final CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collaspeToobarId);
-//       collapsingToolbarLayout.setTitleEnabled(true);
+       final CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collaspeToobarId);
+       collapsingToolbarLayout.setTitleEnabled(true);
 
         TextView tv_name = findViewById(R.id.aa_anime_name);
         TextView tv_studio = findViewById(R.id.aa_studio);
@@ -54,7 +54,7 @@ public class AnimeActivity extends AppCompatActivity {
         tv_rating.setText(rating);
         tv_studio.setText(studio);
 
-    //   collapsingToolbarLayout.setTitle(name);
+       collapsingToolbarLayout.setTitle(name);
 
 
 
