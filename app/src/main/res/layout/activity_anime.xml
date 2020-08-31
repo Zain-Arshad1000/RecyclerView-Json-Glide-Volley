@@ -17,7 +17,7 @@
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:toolbarId="@+id/collaspeToobarId"
+            android:id="@+id/collaspeToolbarId"
             app:layout_scrollFlags="exitUntilCollapsed|scroll"
             app:title="Anime Title"
             app:contentScrim="?attr/colorPrimary"
